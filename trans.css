@@ -1,0 +1,108 @@
+body{
+    background-color: white;
+    margin: 0;
+}
+.topnav {
+    background-color:pink;
+    overflow: hidden;
+  }
+.topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+.topnav a:hover {
+    background-color:rgb(245, 217, 222);
+    color: black;
+  }
+.ti{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 0.3px 60px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .logo img{
+    padding-top: 4.5px;
+    padding-left:0.9%;
+    position: absolute; 
+    float: left;
+    width: 3%;
+    border-radius: 2%;
+}
+.loginbox{
+    width: 420px;
+    height: 450px;
+    background: rgb(250, 248, 248);
+    color: black;
+    top:52%;
+    left:75%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding:35px 30px;
+}
+
+h1{
+    margin :0;
+    padding:0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin:0;
+    padding: 0;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width:100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid rgb(121, 119, 119);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"]
+{
+    border:none;
+    outline: none;
+    height: 40px;
+    background: pink;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    
+}
+
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ccf7faf5;
+    color: #000;
+}
+
+.loginbox select{
+    border: 1px;
+    background: rgb(241, 229, 231);
+    outline: none;
+    height: 36px;
+    color: black;
+    font-size: 14px;
+}
+.k img{
+    width: 50%;
+}
